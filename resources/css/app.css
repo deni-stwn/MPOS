@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 .actived {
+    color: black !important;
     background-color: #f1f1f1;
-    color: #000 !important;
-    padding: 8px, 6px, 8px, 6px;
     border-radius: 100px !important;
+}
+
+table tbody tr,
+table thead tr {
+    border-bottom: 1px solid #e6e6e6 !important; /* Ganti #000 dengan warna border yang Anda inginkan */
+}
+
+div.dt-container select.dt-input {
+    width: 14% !important;
 }

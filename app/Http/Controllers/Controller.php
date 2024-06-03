@@ -10,10 +10,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function dashboard()
-    {
-        return view('pages.dashboard');
-    }
 }
 
 
